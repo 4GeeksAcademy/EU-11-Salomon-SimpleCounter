@@ -1,14 +1,9 @@
-@import '~bootstrap/scss/bootstrap.scss';
-
-.bigCounter{ 
-    text-align: center; 
-    background: black;
-}
-.bigCounter div{
+.counter-digit {
     display: inline-block;
-    font-size: 60px; 
-    line-height: 60px;
-    background: #101010;
-    color: white; 
-    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
 }
