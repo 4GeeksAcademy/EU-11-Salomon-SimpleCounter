@@ -12,6 +12,7 @@ function Card(props) {
             <div className="row">
                 <div className="card bg-black text-white">
                     <div className="card-body">
+                        
                         <div className="counter">
                             {/* map is like a table so this function goes to every digit and creates a card for them (for the max amount of digits)*/}
                             {digits.map((digit, index) => 
